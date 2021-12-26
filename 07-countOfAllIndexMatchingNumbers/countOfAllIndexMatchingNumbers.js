@@ -1,9 +1,8 @@
 function countOfAllIndexMatchingNumbers(nums) {
   // Insert code here;
   let count = 0;
-  for (let i = 0; i < nums.length; i++){
-    let compare = nums[i];
-    if(i == compare){
+  for (let i = 0; i < nums.length; i++){ //if match count++
+    if(i == nums[i]){
       count++;
     }
   }
